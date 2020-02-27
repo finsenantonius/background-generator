@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+  
+  
+/* .container {
+    margin: auto;
+    padding: 16px;
+    background-color: white;
+} */
+
+.container {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.password{
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.email, .confirm_password{
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .btn-submit, .btn-reset {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+  }
+  
+  .btn-submit:hover {
+    opacity: 1;
+  }
+
+  .btn-reset:hover {
+    opacity: 1;
+  }
+  
